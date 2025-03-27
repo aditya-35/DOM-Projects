@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/02_BMI_Calculator/style.css" />
     <title>BMI Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-      <a href="/indexGlobal.html"><button>Home</button></a>
+      <a href="/indexGlobal.html"><button id="homeBtn">Home</button></a>
     </nav>
     <main>
+      <div class="container">
         <h1>BMI Calculator</h1>
-        <form action="bmi.php" method="post">
+        <form>
             <label for="weight">Weight (kg):</label>
             <input type="number" name="weight" id="weight" required>
             <br>
@@ -21,6 +22,7 @@
             <br>
             <button type="submit">Calculate</button>
         </form>
+      </div>
     </main>
-</body>
+  </body>
 </html>

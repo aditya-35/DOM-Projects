@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+#homeBtn{
+  padding:0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+
+}
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: grid;
+}
