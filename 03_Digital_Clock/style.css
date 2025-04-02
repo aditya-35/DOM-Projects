@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#homeBtn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+button {
+  font-size: 1em;
+  padding: 0.5rem 1rem;
+}
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: .25rem;
+}
+#clock {
+  font-size: 43.5px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  background-color: rgb(252, 168, 33);
+  padding: .5rem;
+  border-radius: 10px;
+  height: 59.5px;
+}
