@@ -33,6 +33,9 @@ body{
     background: radial-gradient(ellipse at 50% 50%, rgba(90, 21, 188, 1) 33%, rgba(48, 4, 125, 1) 71%);
     background-repeat: no-repeat;
 }
+img{
+    background: transparent;
+}
 #homeBtn {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
@@ -72,14 +75,16 @@ h1{
     margin: 0.5rem 0;
     padding-top: 0.35rem;
 }
+/* input{
+    padding-left: 1.5rem;
+} */
 
 .display{
-    /* width: 80%; */
     margin-left: 1rem ;
     margin-top: 1rem ;
     
     background-color: transparent;
-    padding: 1.15rem 1 rem;
+    /* padding: 1.15rem 1 rem; */
     color: var(--vb-yellow);
     font-weight: 600;
     font-size: 1.5rem;
@@ -174,14 +179,11 @@ h1{
     display: flex;
     align-items: center;
     padding: 0.5rem;
-    margin: 1 rem 0;
     gap: 0 1rem;
 }
 
 .check input{
-    appearance: none;
-    width: 20px;
-    height: 20px;
+    transform: scale(1.5);
     border-radius: 20%;
     border: 1px solid var(--vb-cyan);
     cursor: pointer;
@@ -193,8 +195,7 @@ h1{
 }
 
 .check input:checked::before{
-    content: '✔️';
-    position: absolute;
+    position: relative;
 
 }
 
